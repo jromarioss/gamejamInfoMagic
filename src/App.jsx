@@ -3,7 +3,7 @@ import { Router } from './router';
 
 export function App() {
   return (
-   <BrowserRouter>
+   <BrowserRouter basename={'/game/JAM/app/'}>
     <Router />
    </BrowserRouter>
   )
